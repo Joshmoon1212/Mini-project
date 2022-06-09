@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1"/>
+		<link rel="stylesheet" href="./index.css"/>
+		<title>101project</title>
+	</head>
+	<body>
+		<main>
+			<!--<input type="text" id="search" placeholder="Search by Username...">-->
+			<h1 class="heading">USERS INFORMATION</h1>
+			
+			<!--Search box section-->
+			
+			<section class="search-section">
+				<input type="text" id="search" placeholder="Search by Username....." onkeyup="searchUsersByUsername()">
+			</section>
+			
+			<!--User list section-->
+			
+			<section class="user-list-section">
+				<!--The li tags are dynamic from the JS file-->
+				<ul id="user-list-container">
+				</ul>
+			</section>
+		</main>
+	</body>
+	<script src="./index.js"></script>
+</html>
